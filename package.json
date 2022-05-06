@@ -1,0 +1,22 @@
+{
+  "name": "express_basicdvdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CristopherSandoval/express_basicdvdd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CristopherSandoval/express_basicdvdd/issues"
+  },
+  "homepage": "https://github.com/CristopherSandoval/express_basicdvdd#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
