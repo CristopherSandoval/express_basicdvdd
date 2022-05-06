@@ -21,3 +21,9 @@ app.get('/explorersInNode', (req, res) => {
     const explorer = {name: "Explorer", msg: "Hello"}
     res.send(explorer)
 })
+// Query params: recibir parámetros por la url
+//http://localhost:3000/explorers/cris
+//req.params = {"explorerName":"carlo"}
+app.get('/explorers/:soycris', (req, res) => {
+    res.send(req.params)
+})
